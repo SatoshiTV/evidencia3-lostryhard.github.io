@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel y Tijera</title>
+    <link rel="stylesheet" href="styles-ppt.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Piedra, Papel y Tijera</h1>
+        <div>
+            <label for="rounds">Número de rondas:</label>
+            <input type="number" id="rounds" min="1" max="10" value="5">
+        </div>
+        <div>
+            <label for="mode">Modo de juego:</label>
+            <select id="mode">
+                <option value="pvp">Jugador vs. Jugador</option>
+                <option value="pvc">Jugador vs. Computadora</option>
+            </select>
+        </div>
+        <div class="game">
+            <button onclick="usuarioElige('piedra')">Piedra</button>
+            <button onclick="usuarioElige('papel')">Papel</button>
+            <button onclick="usuarioElige('tijeras')">Tijera</button>
+        </div>
+        <div class="result" id="result">¡Elige tu opción!</div>
+    </div>
+    <script src="javascript-ppt.js"></script>
+</body>
+
+</html>

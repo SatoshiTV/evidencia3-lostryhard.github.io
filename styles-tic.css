@@ -1,0 +1,54 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(12, 12, 12);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  }
+  
+  .game {
+    text-align: center;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    gap: 5px;
+    margin: 20px auto;
+  }
+  
+  .cuadro {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(55, 133, 207);
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: -9px 21px 140px 9px rgba(0,0,0,0.68);
+    -webkit-box-shadow: -9px 21px 140px 9px rgba(0,0,0,0.68);
+    -moz-box-shadow: -9px 21px 140px 9px rgba(0,0,0,0.68);
+  }
+  
+  .btnjug {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(233, 98, 48);
+  }
+
+  .menu {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(23, 189, 120);
+  }
+  

@@ -1,0 +1,42 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: black;
+}
+
+h1 {
+    text-align: center;
+    margin: 3rem;
+    color: #efe8f2;
+    text-shadow: 2px 2px 2px #ab06d5;
+    font-family: serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 2rem;
+    color: #efe8f2;
+    text-shadow: 2px 2px 2px #ab06d5;  
+    font-family: serif;
+}
+
+.mensaje {
+    color: black;
+}
+
+.descripcion {
+    color: black;
+}
+
+.peligro {
+    color: red;
+}
+
+#particles-js{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
